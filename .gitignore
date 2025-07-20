@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (generated during runtime)
+SandP500Symbols.csv
+SandP500CSV.csv
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Python cache
+*.egg-info/
+dist/
+build/
+
+# Matplotlib cache
+.matplotlib/
+
+# OS-specific files
+Thumbs.db

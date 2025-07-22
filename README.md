@@ -1,5 +1,7 @@
 # Mortality Simulation
 
+Mortality Simulation is a Python-based Monte Carlo engine that models individual lifetimes using age-specific mortality probabilities. 
+
 ## Overview
 
 A lightweight Monte Carlo engine for simulating human lifetimes from an age‐indexed mortality (qx) table. Given a starting age and a table of annual death probabilities, the package repeatedly simulates independent lives, tallies the terminal ages at death, and reports descriptive statistics (expected age at death, probability of dying before a target age, standard deviation, and median age). Results can be written to CSV for downstream analysis.
@@ -37,13 +39,6 @@ A lightweight Monte Carlo engine for simulating human lifetimes from an age‐in
 
 - **Purpose**: Manages the execution of multiple life simulations and computes statistical results.
 - **Attributes**: age – Starting age for each simulated life, simulations – Number of lives to simulate, Ages – Dictionary tracking the frequency of terminal ages
-
----
-
-## Example Input
-
-!library(flextable)
-!flextable(read.csv("MortalityTableExample.csv"))
 
 ---
 

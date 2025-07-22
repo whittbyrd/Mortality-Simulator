@@ -42,7 +42,7 @@ A lightweight Monte Carlo engine for simulating human lifetimes from an age‐in
 
 ## Example Input
 
-!library(flextable) #you can use another table library, if you want
+!library(flextable)
 !flextable(read.csv("MortalityTableExample.csv"))
 
 ---
